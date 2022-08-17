@@ -26,10 +26,12 @@
   - `npm-скрипты`
     - `pre и post`
 - ТРАНСПИЛЯЦИЯ КОДА
-  - [Babe](https://babeljs.ip/)
+  - [Babe](https://babeljs.io/)
   - `CLI и npm-скрипты`
   - `Прессеты`
-  - [Browserslist](https://dithub.com/browserslist/browserslist)
+  - [Browserslist](https://github.com/browserslist/browserslist)
 - [Сборщик Parcel](https://parceljs.org/)
 - [ECMAScript модули](https://exploringjs.com/es6/ch_modules.html)
-  - Дефолтный (default) експорт и импорт
+  - `Дефолтный (default) експорт и импорт`
+  - `Именованый (named) экспорт и импорт`
+  - `Импорт пространства имён (namespace)` 

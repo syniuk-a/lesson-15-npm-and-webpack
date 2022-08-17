@@ -1,10 +1,11 @@
 {
   "name": "lesson-15-npm-and-webpack",
   "version": "1.0.0",
-  "description": "lesson 15 node.js && npm",
+  "description": "lesson 15 node.js && npmre",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "parcel src/index.html",
+    "build": "parcel build src/index.html"
   },
   "repository": {
     "type": "git",
@@ -16,5 +17,12 @@
   "bugs": {
     "url": "https://github.com/syniuk-a/lesson-15-npm-and-webpack/issues"
   },
-  "homepage": "https://github.com/syniuk-a/lesson-15-npm-and-webpack#readme"
+  "homepage": "https://github.com/syniuk-a/lesson-15-npm-and-webpack#readme",
+  "dependencies": {
+    "@babel/preset-env": "^7.18.10",
+    "e": "^0.2.2"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.12.5"
+  }
 }
